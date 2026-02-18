@@ -1,0 +1,21 @@
+DEPLOYMENT TO STACKCP (REPLACING WORDPRESS)
+===========================================
+
+1. CLEANUP
+   - Go to your StackCP File Manager -> public_html
+   - Select ALL files (WordPress files) and DELETE them.
+   - (Optional) Keep a backup of wp-config.php if you might need database credentials later.
+
+2. UPLOAD
+   - On your local computer, open:
+     c:\Users\User\Desktop\haseeb-services-website-main\out
+   - Select ALL files and folders inside 'out'.
+   - Drag and drop them into the empty 'public_html' folder in StackCP.
+
+3. VERIFY
+   - Go to your domain in a browser.
+   - You should see the new Next.js site!
+
+Troubleshooting:
+- If you see a white screen, check the browser console (F12) for errors.
+- Ensure you uploaded the *contents* of 'out', not the 'out' folder itself.
