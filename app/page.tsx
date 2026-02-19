@@ -6,12 +6,12 @@ import { allTestimonials } from '@/lib/testimonials';
 import { TargetIcon, ClipboardIcon, BriefcaseIcon, MailIcon, MobileIcon, ChartIcon } from '@/components/icons';
 
 export const metadata = {
-  title: 'Growth Leder | Lead Generation, Automation & Account Services',
-  description: 'Growth Leder helps UK and US businesses scale through lead generation, automation, virtual assistance, and structured account management services.',
-  keywords: 'lead generation services, virtual assistance agency, business automation services, account services, B2B growth solutions, serving UK & US businesses, international clients',
+  title: 'Growth Leder | Lead Generation, Automation & Accounting Services',
+  description: 'Growth Leder helps UK and US businesses scale through lead generation, automation, virtual assistance, and structured accounting services.',
+  keywords: 'lead generation services, virtual assistance agency, business automation services, accounting services, B2B growth solutions, serving UK & US businesses, international clients',
   openGraph: {
-    title: 'Scale Your Business with Growth Leder',
-    description: 'Professional lead generation, automation, and account services designed to increase revenue and reduce operational workload for UK and US businesses.',
+    title: 'Growth Leder | Scale Your Business with Expert Support',
+    description: 'Professional lead generation, automation, and accounting services designed to increase revenue and reduce operational workload for UK and US businesses.',
   },
 };
 

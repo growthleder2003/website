@@ -56,7 +56,7 @@ const services: Service[] = [
   },
   {
     icon: <CalculatorIcon className="w-8 h-8" />,
-    title: 'Account Services',
+    title: 'Accounting Services',
     description: 'Comprehensive financial management including bookkeeping, invoicing, financial reporting, and tax preparation support.',
   },
 ];

@@ -77,7 +77,7 @@ export const services: Service[] = [
     sampleProject: {
       title: 'B2B SaaS Lead Generation',
       description: 'Generated 500+ qualified leads for a SaaS company targeting mid-market businesses.',
-      image: '/projects/lead-gen.png',
+      image: '/projects/lead-gen-techfunnel.jpg',
       results: [
         '500+ qualified leads delivered',
         '35% conversion rate to demo',
@@ -96,7 +96,7 @@ export const services: Service[] = [
   },
   {
     slug: 'accounting-bookkeeping',
-    title: 'Account Services',
+    title: 'Accounting Services',
     shortDescription: 'Comprehensive financial management including bookkeeping, invoicing, and financial reporting.',
     fullDescription: 'Our accounting services ensure your financial records are accurate, organized, and compliant. We handle everything from day-to-day bookkeeping to complex financial reporting, giving you peace of mind.',
     icon: 'calculator',
@@ -107,7 +107,7 @@ export const services: Service[] = [
       'Tax Preparation Support',
       'Payroll Management'
     ],
-    tools: ['QuickBooks', 'Xero', 'Wave', 'Excel'],
+    tools: ['QuickBooks Online', 'Xero', 'Wave', 'Appfolio'],
     benefits: [
       'Tax-ready financial records',
       'Clear view of cash flow',
@@ -141,7 +141,7 @@ export const services: Service[] = [
     sampleProject: {
       title: 'E-commerce Bookkeeping',
       description: 'Streamlined financial operations for a high-volume e-commerce store.',
-      image: '/projects/admin.png',
+      image: '/projects/accounting-def.jpg',
       results: [
         'Organized 12 months of backlog',
         'Monthly closing time reduced by 5 days',
@@ -149,11 +149,11 @@ export const services: Service[] = [
       ],
     },
     meta: {
-      title: 'Account Services | Financial & Account Management Support | Growth Leder',
-      description: 'Stay financially organized with professional account services including invoicing, reconciliation, and reporting support for UK and US businesses.',
-      keywords: 'account services, accounts payable, accounts receivable, invoice management, financial reporting support, UK bookkeeping, US booking support',
+      title: 'Accounting Services | Financial & Account Management Support | Growth Leder',
+      description: 'Stay financially organized with professional accounting services including invoicing, reconciliation, and reporting support for UK and US businesses.',
+      keywords: 'accounting services, accounts payable, accounts receivable, invoice management, financial reporting support, UK bookkeeping, US booking support',
       openGraph: {
-        title: 'Structured & Reliable Account Services',
+        title: 'Structured & Reliable Accounting Services',
         description: 'Organized account management systems to improve cash flow and financial clarity for international clients.',
       },
     },

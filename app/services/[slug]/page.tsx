@@ -162,6 +162,23 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
               </div>
             </div>
 
+            {/* Software & Tools */}
+            <div className="mb-12">
+              <h3 className="text-xl font-bold mb-6 flex items-center justify-center md:justify-start gap-2">
+                <span className="p-2 bg-accent/10 rounded-lg text-accent">
+                  <CogIcon className="w-6 h-6" />
+                </span>
+                Software & Tools
+              </h3>
+              <div className="flex flex-wrap gap-3 justify-center md:justify-start">
+                {service.tools.map((tool, index) => (
+                  <span key={index} className="px-5 py-2 bg-white rounded-full border border-primary/10 text-primary font-medium shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+                    {tool}
+                  </span>
+                ))}
+              </div>
+            </div>
+
             {/* Timeline & Ideal For */}
             <div className="bg-light rounded-2xl p-8 border border-primary/10 mb-12">
               <div className="grid md:grid-cols-2 gap-8">

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export const metadata = {
   title: 'Case Studies | Proven Client Results | Growth Leder',
-  description: 'Explore real case studies showcasing measurable growth results through lead generation, automation, and account services.',
+  description: 'Explore real case studies showcasing measurable growth results through lead generation, automation, and accounting services.',
   keywords: 'growth case studies, lead generation results, automation case study, client success stories',
   openGraph: {
     title: 'Real Growth. Real Results.',
