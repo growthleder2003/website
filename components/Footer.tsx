@@ -6,7 +6,7 @@ import {
   LinkedInIcon,
   CalendarIcon,
 } from './icons';
-import Image from 'next/image';
+import ImageWithFallback from './ImageWithFallback';
 
 export default function Footer() {
   return (
@@ -18,16 +18,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center gap-3 text-3xl font-bold mb-6 hover:opacity-80 transition-opacity text-white font-nunito">
-              <Image 
+              <ImageWithFallback 
                 src="/logo-white.svg" 
                 alt="Growth Leder Logo" 
                 width={50} 
                 height={50} 
                 className="w-12 h-12" 
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                }}
+                hideOnError={true}
               />
               Growth Leder
             </Link>

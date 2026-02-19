@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import Image from 'next/image';
+import ImageWithFallback from '@/components/ImageWithFallback';
 import { MenuIcon } from './icons';
 
 export default function Header() {
@@ -41,16 +41,13 @@ export default function Header() {
         <div className="container">
           <div className="flex justify-between items-center">
             <Link href="/" className="flex items-center gap-3 text-black text-2xl md:text-3xl font-extrabold font-nunito hover:scale-105 transition-transform">
-              <Image 
+              <ImageWithFallback 
                 src="/logo-white.svg" 
                 alt="Growth Leder Logo" 
                 width={60} 
                 height={60} 
                 className="w-12 h-12 md:w-16 md:h-16" 
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                }}
+                hideOnError={true}
               />
               Growth Leder
             </Link>

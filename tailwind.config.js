@@ -16,8 +16,8 @@ module.exports = {
         gray: '#a0aec0',
       },
       fontFamily: {
-        heading: ['Poppins', 'sans-serif'],
-        body: ['Open Sans', 'sans-serif'],
+        heading: ['var(--font-heading)', 'sans-serif'],
+        body: ['var(--font-body)', 'sans-serif'],
         nunito: ['var(--font-nunito)', 'sans-serif'],
       },
       boxShadow: {
