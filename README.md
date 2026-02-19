@@ -2,7 +2,7 @@
 
 A modern, responsive Next.js website for Growth Leder services, built with React, TypeScript, and Tailwind CSS.
 
-**GitHub:** [https://github.com/xneshaniy/haseeb-services-website](https://github.com/xneshaniy/haseeb-services-website)
+**GitHub:** [https://github.com/growthleder2003/website](https://github.com/growthleder2003/website)
 
 ## Features
 
@@ -45,17 +45,21 @@ A modern, responsive Next.js website for Growth Leder services, built with React
 ### Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/xneshaniy/haseeb-services-website.git
-   cd haseeb-services-website
+   git clone https://github.com/growthleder2003/website.git
+   cd website
    ```
 
+
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run development server:
+
    ```bash
    npm run dev
    ```
@@ -72,21 +76,10 @@ This generates a static site in the `out` folder, ready for deployment.
 
 ## Project Structure
 
-```
+```text
 ├── app/                    # Next.js App Router pages
-│   ├── page.tsx           # Homepage
-│   ├── about/             # About page
-│   ├── contact/           # Contact page
-│   ├── services/          # Services pages
-│   └── globals.css        # Global styles
 ├── components/            # React components
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   ├── ServiceCarousel.tsx
-│   └── Testimonials.tsx
 ├── lib/                   # Data and utilities
-│   ├── services.ts        # Services data
-│   └── testimonials.ts    # Testimonials data
 ├── public/                # Static assets
 └── out/                   # Build output (generated)
 ```
@@ -96,6 +89,7 @@ This generates a static site in the `out` folder, ready for deployment.
 ### StackCP Deployment
 
 1. Build the site:
+
    ```powershell
    .\build-for-stackcp.ps1
    ```

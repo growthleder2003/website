@@ -81,6 +81,10 @@ export default function Testimonials({ testimonials, autoPlay = true, showAll = 
                     width={64}
                     height={64}
                     className="object-cover"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(testimonial.clientName)}&background=random`;
+                    }}
                   />
                 ) : (
                   <span className="text-white text-xl font-bold">
@@ -121,6 +125,10 @@ export default function Testimonials({ testimonials, autoPlay = true, showAll = 
                         width={80}
                         height={80}
                         className="object-cover"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(testimonial.clientName)}&background=random`;
+                        }}
                       />
                     ) : (
                       <span className="text-white text-2xl font-bold">

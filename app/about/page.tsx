@@ -43,12 +43,16 @@ export default function About() {
         <div className="container relative z-10">
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto items-center mb-12">
             <div className="relative h-64 md:h-96 rounded-2xl overflow-hidden shadow-2xl border border-white/5 group">
-              <Image
-                src="/laptop.png"
-                alt="Growth Leder team providing professional lead generation services, virtual assistant support, and CRM automation solutions"
-                fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"
-              />
+                <Image
+                  src="/laptop.png"
+                  alt="Growth Leder team providing professional lead generation services, virtual assistant support, and CRM automation solutions"
+                  fill
+                  className="object-cover grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=2070';
+                  }}
+                />
             </div>
             <div>
               <h2 className="mb-6 text-white text-3xl font-bold">Description Overview</h2>
